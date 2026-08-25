@@ -1,98 +1,114 @@
-# 🌸 Estética Avançada SV — Agenda Online
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:D01117,50:EC4899,100:F9A8D4&height=180&section=header&text=AGENDA%20EST%C3%89TICA%20AVAN%C3%87ADA&fontSize=30&fontColor=FDF2F8&fontAlignY=35&desc=Agendamento%20%7C%20Prontu%C3%A1rio%20%7C%20Pacotes%20%7C%20Gest%C3%A3o&descAlignY=58&descSize=15&descColor=F9A8D4" alt="Banner Agenda Estética Avançada" />
+</p>
 
-> Sistema completo de agendamento e gestão para clínica de estética, desenvolvido por **By Natalia Dev**
+<p align="center">
+  <strong>Plataforma de agendamento e gestão para a Estética Avançada SV.</strong>
+</p>
 
----
+<p align="center">
+  <a href="https://taliaalmeida.github.io/agenda-estetica-avancada-sv/"><img src="https://img.shields.io/badge/DEMO-ONLINE-EC4899?style=for-the-badge&labelColor=0D1117" alt="Demo online" /></a>
+  <img src="https://img.shields.io/badge/STATUS-FEATURED-F9A8D4?style=for-the-badge&labelColor=0D1117" alt="Status featured" />
+</p>
 
-## ✨ Sobre o sistema
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+</p>
 
-Sistema web completo com três perfis de acesso — Cliente, Profissional e Administrador — desenvolvido exclusivamente para a **Estética Avançada SV**. Sincronização em tempo real via Firebase, sem necessidade de instalar nada.
+> **01 // PROJECT_OVERVIEW**  
+> O Agenda Estética Avançada organiza o relacionamento entre clientes, profissionais e administração em um único sistema web. A aplicação foi criada para a rotina da Estética Avançada SV e sincroniza os dados da agenda em tempo real com o Firebase.
 
----
+## 02 // PERFIS DE ACESSO
 
-## 👤 Perfis de acesso
+| Perfil | Principais recursos |
+| --- | --- |
+| **Cliente** | Catálogo de serviços, agendamento online, histórico de sessões, pacotes adquiridos e ficha de anamnese digital. |
+| **Profissional** | Agenda individual, visão diária, prontuário eletrônico e registro de evolução clínica. |
+| **Administrador** | Métricas mensais, agenda geral, serviços, equipe, salas, estoque, comissões, pacotes e regras de negócio. |
 
-### 💁 Cliente
-- Catálogo de serviços com preço e duração
-- Agendamento online com escolha de profissional e horário
-- Área pessoal com histórico de sessões
-- Carteira de pacotes adquiridos
-- Ficha de anamnese digital
+## 03 // MÓDULOS
 
-### 🧑‍⚕️ Profissional
-- Agenda individual com visão diária
-- Prontuário eletrônico dos pacientes
-- Registro de evolução clínica
+A interface reúne Agenda do dia, Todos os agendamentos, Novo agendamento, Aniversários, Atendimentos, Colaboradores, Produtos, Despesas, Fechamento, Clientes, Prontuários, Pacotes, Visão geral, Serviços, Equipe, Salas, Estoque, Comissões e Regras.
 
-### ⚙️ Administrador
-- Visão geral com métricas do mês
-- Agenda geral de todos os profissionais
-- Cadastro de serviços com insumos vinculados
-- Gestão da equipe com percentual de comissão
-- Controle de salas e equipamentos
-- Controle de estoque com baixa automática por procedimento
-- Cálculo automático de comissões ao concluir atendimento
-- Venda de pacotes de sessões
-- Regras de negócio (horário, buffer entre clientes, dias de funcionamento)
+Os registros são organizados por mês. A navegação entre períodos usa as setas do cabeçalho e mantém os dados da agenda separados dos dados do caixa.
 
----
+## 04 // INTERFACE
 
-## 🗂️ Organização por meses
+A captura abaixo mostra o fluxo de **Novo agendamento**, com data, horário, cliente, WhatsApp, aniversário, serviço, profissional, valor, observação e confirmação.
 
-Os dados ficam organizados automaticamente por mês — janeiro fica separado de fevereiro, sem misturar nada. A navegação entre meses é feita pelas setas ‹ › no cabeçalho.
+<p align="center">
+  <img src="assets/screenshots/agenda-novo-agendamento.webp" alt="Formulário de novo agendamento" width="920" />
+</p>
 
----
+<p align="center"><sub>Captura da aplicação publicada no GitHub Pages.</sub></p>
 
-## 🛠️ Tecnologias
+## 05 // STACK
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
+| Camada | Tecnologia |
+| --- | --- |
+| Front-end | HTML5, CSS3 e JavaScript puro, sem frameworks. |
+| Dados | Firebase Realtime Database. |
+| Hospedagem | GitHub Pages. |
+| Tipografia | Cormorant Garamond e DM Sans. |
 
-- HTML5, CSS3 e JavaScript puro — sem frameworks
-- Firebase Realtime Database — sincronização em tempo real
-- Hospedagem: GitHub Pages (gratuito)
-- Fontes: Cormorant Garamond + DM Sans
+## 06 // COMO USAR
 
----
+### Demo online
 
-## 📁 Estrutura do repositório
+Acesse [taliaalmeida.github.io/agenda-estetica-avancada-sv](https://taliaalmeida.github.io/agenda-estetica-avancada-sv/).
 
+### Execução local
+
+```bash
+git clone https://github.com/taliaalmeida/agenda-estetica-avancada-sv.git
+cd agenda-estetica-avancada-sv
+python3 -m http.server 8000
 ```
-agenda-estetica-avancada-sv/
-│
-└── index.html     # Sistema completo em um único arquivo
-└── README.md      # Este arquivo
-```
 
----
+Abra [http://localhost:8000](http://localhost:8000) no navegador.
 
-## 🚀 Como hospedar
+### Publicação no GitHub Pages
 
-1. Faça upload do `index.html` no repositório do GitHub
-2. Vá em **Settings → Pages**
-3. Source: `main` → `/ (root)` → Save
-4. Aguarde ~2 minutos e acesse o link gerado
+No repositório, acesse **Settings → Pages**, selecione a branch `main`, a pasta `/ (root)` e salve. O `index.html` é o ponto de entrada da aplicação.
 
----
+## 07 // FIREBASE
 
-## 🔥 Firebase
+A aplicação utiliza o projeto Firebase `caixa-clinicasv`, com separação lógica entre a agenda e o caixa:
 
-O sistema utiliza o projeto Firebase `caixa-clinicasv` já configurado. Os dados da agenda ficam separados do sistema de caixa:
-
-| Sistema | Caminho no Firebase |
-|---|---|
+| Sistema | Caminho utilizado |
+| --- | --- |
 | Caixa da clínica | `meses/YYYY-MM/...` |
 | Agenda | `agenda/YYYY-MM/...` e `agenda_global/...` |
 
----
+Antes de utilizar dados reais, revise as regras do Realtime Database, não publique credenciais administrativas e não coloque nomes, telefones ou prontuários em exemplos e screenshots.
 
-## 📬 Desenvolvido por
+## 08 // ESTRUTURA
 
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white)](https://wa.me/5521970189097)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/nataliaalmeidatech)
+```text
+agenda-estetica-avancada-sv/
+├── index.html    # Aplicação completa
+└── README.md     # Documentação do projeto
+```
 
----
+## 09 // ROADMAP
 
-<p align="center">Desenvolvido com 🌸 por <strong>By Natalia Dev</strong></p>
+| Prioridade | Evolução sugerida |
+| --- | --- |
+| Alta | Separar a aplicação em módulos e documentar variáveis de ambiente/configuração. |
+| Alta | Implementar autenticação com permissões explícitas para Cliente, Profissional e Administrador. |
+| Média | Adicionar testes dos fluxos de agendamento, prontuário, estoque e comissão. |
+
+## 10 // AUTORIA
+
+Desenvolvido por **Natalia Almeida — By Natalia Dev**.
+
+- [Demo online](https://taliaalmeida.github.io/agenda-estetica-avancada-sv/)
+- [Perfil no GitHub](https://github.com/taliaalmeida/taliaalmeida)
+- [Instagram](https://www.instagram.com/nataliaalmeidatech)
+
+<p align="center">
+  <sub>Learn. Build. Automate. Evolve.</sub>
+</p>
