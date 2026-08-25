@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:D01117,50:EC4899,100:F9A8D4&height=180&section=header&text=AGENDA%20EST%C3%89TICA%20AVAN%C3%87ADA&fontSize=30&fontColor=FDF2F8&fontAlignY=35&desc=Agendamento%20%7C%20Prontu%C3%A1rio%20%7C%20Pacotes%20%7C%20Gest%C3%A3o&descAlignY=58&descSize=15&descColor=F9A8D4" alt="Banner Agenda Estética Avançada" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:EC4899,100:F9A8D4&height=180&section=header&text=AGENDA%20EST%C3%89TICA%20AVAN%C3%87ADA&fontSize=30&fontColor=FDF2F8&fontAlignY=35&desc=Agendamento%20%7C%20Prontu%C3%A1rio%20%7C%20Pacotes%20%7C%20Gest%C3%A3o&descAlignY=58&descSize=15&descColor=F9A8D4" alt="Banner Agenda Estética Avançada" />
 </p>
 
 <p align="center">
@@ -68,14 +68,13 @@ cd agenda-estetica-avancada-sv
 python3 -m http.server 8000
 ```
 
-
 ### Publicação no GitHub Pages
 
 No repositório, acesse **Settings → Pages**, selecione a branch `main`, a pasta `/ (root)` e salve. O `index.html` é o ponto de entrada da aplicação.
 
 ## 07 // FIREBASE
 
-A aplicação utiliza o projeto Firebase `caixa-clinicasv`, com separação lógica entre a agenda e o caixa:
+A aplicação utiliza **Firebase Realtime Database** para persistência e sincronização dos dados em tempo real. O projeto Firebase utilizado é `caixa-clinicasv`, com separação lógica entre a agenda e o caixa:
 
 | Sistema | Caminho utilizado |
 | --- | --- |
