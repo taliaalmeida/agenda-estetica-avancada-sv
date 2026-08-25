@@ -68,7 +68,6 @@ cd agenda-estetica-avancada-sv
 python3 -m http.server 8000
 ```
 
-Abra [http://localhost:8000](http://localhost:8000) no navegador.
 
 ### Publicação no GitHub Pages
 
