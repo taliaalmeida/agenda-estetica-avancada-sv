@@ -40,7 +40,7 @@ Os registros são organizados por mês. A navegação entre períodos usa as set
 A captura abaixo mostra o fluxo de **Novo agendamento**, com data, horário, cliente, WhatsApp, aniversário, serviço, profissional, valor, observação e confirmação.
 
 <p align="center">
-  <img src="assets/screenshots/agenda-novo-agendamento.webp" alt="Formulário de novo agendamento" width="920" />
+  <img src="agenda-novo-agendamento.webp" />
 </p>
 
 <p align="center"><sub>Captura da aplicação publicada no GitHub Pages.</sub></p>
